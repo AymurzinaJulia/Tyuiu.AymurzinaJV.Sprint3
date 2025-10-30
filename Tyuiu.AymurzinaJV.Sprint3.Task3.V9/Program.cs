@@ -1,0 +1,26 @@
+﻿using Tyuiu.AymurzinaJV.Sprint3.Task3.V9.Lib;
+DataService ds = new DataService();
+Console.Title = "Спринт #3 | Выполнила: Аймурзина Ю.В. | РППб-25-1";
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #3                                                                ");
+Console.WriteLine("* Тема: Оператор цикла foreach                                             ");
+Console.WriteLine("* Задание #3                                                               ");
+Console.WriteLine("* Вариант #9                                                               ");
+Console.WriteLine("* Выполнила: Аймурзина Юлия Владимировна | РППб-25-1                       ");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                 ");
+Console.WriteLine("* Используя цикл foreach заменить цифры на букву w                         ");
+Console.WriteLine("* в строке: 56hy vfe4r4 vf45b                                              ");
+Console.WriteLine("*                                                                          ");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         ");
+Console.WriteLine("***************************************************************************");
+string value = "56hy vfe4r4 vf45b";
+char item = 'w';
+
+Console.WriteLine("*                                                                          ");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* РЕЗУЛЬТАТ:                                                               ");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine(ds.ReplaceNumOnChar(value, item));
+Console.ReadKey();
