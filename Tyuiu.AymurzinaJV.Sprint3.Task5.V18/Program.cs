@@ -1,0 +1,28 @@
+﻿using Tyuiu.AymurzinaJV.Sprint3.Task5.V18.Lib;
+DataService ds = new DataService();
+Console.Title = "Спринт #3 | Выполнила: Аймурзина Ю.В. | РППб-25-1";
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #3                                                                ");
+Console.WriteLine("* Тема: Вложенные циклы                                                    ");
+Console.WriteLine("* Задание #5                                                               ");
+Console.WriteLine("* Вариант #18                                                              ");
+Console.WriteLine("* Выполнила: Аймурзина Юлия Владимировна | РППб-25-1                       ");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                 ");
+Console.WriteLine("* Вычислить значение выражения при х = 5                                   ");
+Console.WriteLine("*                                                                          ");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         ");
+Console.WriteLine("***************************************************************************");
+int x = 5;
+int startValue1 = 1;
+int stopValue1 = 3;
+int startValue2 = 1;
+int stopValue2 = 11;
+
+Console.WriteLine("*                                                                          ");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* РЕЗУЛЬТАТ:                                                               ");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine(ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2));
+Console.ReadKey();
