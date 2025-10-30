@@ -13,7 +13,7 @@ namespace Tyuiu.AymurzinaJV.Sprint3.Task5.V18.Test
             int stopValue1 = 3;
             int startValue2 = 1;
             int stopValue2 = 11;
-            double wait = 759.361;
+            double wait = 768.361;
             Assert.AreEqual(wait, ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2));
         }
     }

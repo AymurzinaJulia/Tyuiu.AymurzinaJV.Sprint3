@@ -12,7 +12,7 @@ namespace Tyuiu.AymurzinaJV.Sprint3.Task5.V18.Lib
 
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    sum += Math.Cos(x) + (k * k / 2);
+                    sum += Math.Cos(x) + (k * k / 2.0);
                 }
             }
             return Math.Round(sum, 3);
